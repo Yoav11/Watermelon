@@ -1,0 +1,57 @@
+.navbar {
+    font-size: 1.0em;
+    height: 80px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 25px 0 black;
+    z-index: 10;
+}
+
+/* Are you sure you want to know, im not sure you’ll like what I’ve got to say.
+I don't think I talked with someone about absolutely nothing until 2am in .. ever.
+You're passionate, you've got humour, your left eye squints a little when u smile
+and you have that thing where you are able to smile while kissing at the same time
+and it's very cute. I know you don't like your squirrle painting very much but I think
+it's great, it's not bigger than real life, you're really talented. I don't know what you've
+been through before ... */
+
+.navbar * {
+    display: inline;
+}
+
+.navbar img {
+    height: 60px;
+    width: 60px;
+    display: block;
+    position: absolute;
+    margin-left: calc((100% - 60px) / 2);
+}
+
+.navbar li {
+    margin: 20px;
+}
+
+.navbar li a {
+    text-decoration: none;
+    color: black;
+    transition: all 0.2s;
+}
+
+.navbar li a:hover {
+    color: grey;
+    display: inline-block;
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+.navbar .varieties {
+    position: inherit;
+    right: 0;
+}

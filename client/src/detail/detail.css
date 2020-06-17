@@ -1,0 +1,60 @@
+.detail {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.detail h1 {
+    text-align: left;
+    margin: 0;
+    margin-top: 5%;
+    margin-left: 10%;
+}
+
+.detail .subtitle {
+    text-align: left;
+}
+
+.detail .subtitle h3 {
+    text-align: left;
+    margin: 0;
+    margin-top: 1%;
+    margin-left: 15%;
+    color: lightgrey;
+    width: 30%;
+    display: inline;
+}
+
+.detail h5 {
+    color: lightgrey;
+    margin: 5% auto;
+    width: 70%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+.detail p {
+    margin: 0 auto;
+    text-align: left;
+    width: 70%;
+}
+
+.detail .subtitle .forms {
+    margin-right: 16%;
+}
+
+.forms button {
+    float: right;
+}
+
+.forms form:nth-child(2) button{
+    margin-right: 2%;
+}

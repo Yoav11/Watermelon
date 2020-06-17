@@ -1,0 +1,51 @@
+.snippet {
+    margin-top: 50px;
+    width: 60vw;
+    text-align: left;
+}
+
+.snippet h1 {
+    margin-left: 10px;
+    display: inline;
+}
+
+.snippet h5 {
+    display: inline;
+    margin-left: 20px;
+    color: lightgrey;
+}
+
+.snippet .desc {
+    color: lightgrey;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.snippet .text a {
+    color: lightblue;
+    margin-left: 30px;
+    font-size: 0.8em;
+    text-align: right;
+}
+
+.snippet .text a:hover {
+    color: grey;
+}
+
+.snippet .icons {
+    margin-left: auto;
+    margin-right: 0;
+    text-align: right;
+}
+
+.snippet .icons * {
+    display: inline;
+}
+
+.snippet .icons .favorites {
+    margin: 20px;
+}
+
+.snippet .icons div * {
+    margin: 4px;
+}
